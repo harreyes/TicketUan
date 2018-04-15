@@ -1,0 +1,43 @@
+D:\FST\C#2013\TICKET\Layer_Business\obj\Debug\Layer_Business.csprojResolveAssemblyReference.cache
+D:\FST\C#2013\TICKET\Layer_Business\bin\Debug\Layer_Business.dll
+D:\FST\C#2013\TICKET\Layer_Business\bin\Debug\Layer_Business.pdb
+D:\FST\C#2013\TICKET\Layer_Business\bin\Debug\Layer_Data.dll
+D:\FST\C#2013\TICKET\Layer_Business\bin\Debug\Layer_Data.pdb
+D:\FST\C#2013\TICKET\Layer_Business\obj\Debug\Layer_Business.dll
+D:\FST\C#2013\TICKET\Layer_Business\obj\Debug\Layer_Business.pdb
+E:\FST\website\VB2013\TICKET\Layer_Business\bin\Debug\Layer_Business.dll
+E:\FST\website\VB2013\TICKET\Layer_Business\bin\Debug\Layer_Business.pdb
+E:\FST\website\VB2013\TICKET\Layer_Business\bin\Debug\Layer_Data.dll
+E:\FST\website\VB2013\TICKET\Layer_Business\bin\Debug\Layer_Data.pdb
+E:\FST\website\VB2013\TICKET\Layer_Business\obj\Debug\Layer_Business.csprojResolveAssemblyReference.cache
+E:\FST\website\VB2013\TICKET\Layer_Business\obj\Debug\Layer_Business.dll
+E:\FST\website\VB2013\TICKET\Layer_Business\obj\Debug\Layer_Business.pdb
+D:\FIRSOFT\PROYECTOS_V2\C#2013\TICKET\Layer_Business\bin\Debug\Layer_Business.dll
+D:\FIRSOFT\PROYECTOS_V2\C#2013\TICKET\Layer_Business\bin\Debug\Layer_Business.pdb
+D:\FIRSOFT\PROYECTOS_V2\C#2013\TICKET\Layer_Business\bin\Debug\Layer_Data.dll
+D:\FIRSOFT\PROYECTOS_V2\C#2013\TICKET\Layer_Business\bin\Debug\Layer_Data.pdb
+D:\FIRSOFT\PROYECTOS_V2\C#2013\TICKET\Layer_Business\obj\Debug\Layer_Business.csprojResolveAssemblyReference.cache
+D:\FIRSOFT\PROYECTOS_V2\C#2013\TICKET\Layer_Business\obj\Debug\Layer_Business.dll
+D:\FIRSOFT\PROYECTOS_V2\C#2013\TICKET\Layer_Business\obj\Debug\Layer_Business.pdb
+E:\Fst\2. WEBSITE\C#2013\9. TICKET\Layer_Business\bin\Debug\Layer_Business.dll
+E:\Fst\2. WEBSITE\C#2013\9. TICKET\Layer_Business\bin\Debug\Layer_Business.pdb
+E:\Fst\2. WEBSITE\C#2013\9. TICKET\Layer_Business\bin\Debug\Layer_Data.dll
+E:\Fst\2. WEBSITE\C#2013\9. TICKET\Layer_Business\bin\Debug\Layer_Data.pdb
+E:\Fst\2. WEBSITE\C#2013\9. TICKET\Layer_Business\obj\Debug\Layer_Business.csprojResolveAssemblyReference.cache
+E:\Fst\2. WEBSITE\C#2013\9. TICKET\Layer_Business\obj\Debug\Layer_Business.dll
+E:\Fst\2. WEBSITE\C#2013\9. TICKET\Layer_Business\obj\Debug\Layer_Business.pdb
+C:\Users\acer\Desktop\tick\9. TICKET\Layer_Business\bin\Debug\Layer_Business.dll
+C:\Users\acer\Desktop\tick\9. TICKET\Layer_Business\bin\Debug\Layer_Business.pdb
+C:\Users\acer\Desktop\tick\9. TICKET\Layer_Business\bin\Debug\Layer_Data.dll
+C:\Users\acer\Desktop\tick\9. TICKET\Layer_Business\bin\Debug\Layer_Data.pdb
+C:\Users\acer\Desktop\tick\9. TICKET\Layer_Business\obj\Debug\Layer_Business.csprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\tick\9. TICKET\Layer_Business\obj\Debug\Layer_Business.csproj.CoreCompileInputs.cache
+C:\Users\acer\Desktop\tick\9. TICKET\Layer_Business\obj\Debug\Layer_Business.dll
+C:\Users\acer\Desktop\tick\9. TICKET\Layer_Business\obj\Debug\Layer_Business.pdb
+C:\Users\HAROLD\Desktop\tick\9. TICKET\Layer_Business\bin\Debug\Layer_Business.dll
+C:\Users\HAROLD\Desktop\tick\9. TICKET\Layer_Business\bin\Debug\Layer_Business.pdb
+C:\Users\HAROLD\Desktop\tick\9. TICKET\Layer_Business\bin\Debug\Layer_Data.dll
+C:\Users\HAROLD\Desktop\tick\9. TICKET\Layer_Business\bin\Debug\Layer_Data.pdb
+C:\Users\HAROLD\Desktop\tick\9. TICKET\Layer_Business\obj\Debug\Layer_Business.csprojResolveAssemblyReference.cache
+C:\Users\HAROLD\Desktop\tick\9. TICKET\Layer_Business\obj\Debug\Layer_Business.dll
+C:\Users\HAROLD\Desktop\tick\9. TICKET\Layer_Business\obj\Debug\Layer_Business.pdb

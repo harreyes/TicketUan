@@ -1,0 +1,25 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="MPVacio, App_Web_25kfw5k2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <link href="./resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+
+    <link href="./resources/css/blog-post.css" rel="stylesheet" />
+    <meta name="msapplication-starturl" content="./login.aspx" />
+    <meta name="msapplication-navbutton-color" content="#6D161F" />
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <asp:ScriptManager runat="server"></asp:ScriptManager>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+    </form>
+</body>
+</html>
