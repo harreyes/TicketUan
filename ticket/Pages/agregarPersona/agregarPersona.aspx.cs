@@ -51,6 +51,11 @@ public partial class Pages_agregarPersona_agregarPersona : System.Web.UI.Page
             throw ex;
         }
     }
+    /// <summary>
+    /// Metodo para agregar personas
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     protected void rbtguardar_Click(object sender, EventArgs e)
     {
         try
@@ -74,7 +79,10 @@ public partial class Pages_agregarPersona_agregarPersona : System.Web.UI.Page
             Mensaje.mostrar(ex.Message, this.Page, TipoMensajes.Advertencia);
         }
     }
-
+    /// <summary>
+    /// metodo para validar que los campos esten llenos
+    /// </summary>
+    /// <returns></returns>
     public string validarInfo()
     {
         try
@@ -144,12 +152,12 @@ public partial class Pages_agregarPersona_agregarPersona : System.Web.UI.Page
         }
     }
 
-
-    protected void rbtCancelar_Click(object sender, EventArgs e)
+    //volver a la pantalla personas
+    protected void rbtVolver_Click(object sender, EventArgs e)
     {
         try
         {
-            Response.Redirect("~/Pages/inicio/inicio.aspx", false);
+            Response.Redirect("~/Pages/personas/personas.aspx", false);
 
         }
         catch (Exception ex)

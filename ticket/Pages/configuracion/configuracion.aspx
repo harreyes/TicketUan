@@ -9,12 +9,19 @@
 
             <tr class="text-center">
                 <td>
-                    <telerik:RadButton ID="rbtguardar" runat="server" OnClick="btnUsuarios_Click" Text="AGREGAR USUARIO ADMINISTRATIVO" Icon-PrimaryIconCssClass="rbSave"></telerik:RadButton>
+                    <telerik:RadButton ID="rbtguardar" runat="server" OnClick="btnUsuarios_Click" Text="AGREGAR USUARIO ADMINISTRATIVO" Icon-PrimaryIconCssClass="rbAdd"></telerik:RadButton>
                 </td>
             </tr>
+
             <tr class="text-center">
-               <td>
-                    <telerik:RadButton ID="RadButton1" runat="server" OnClick="rbtCancelar_Click" Text="VOLVER" Icon-PrimaryIconCssClass="rbCancel"></telerik:RadButton>
+                <td>
+                    <telerik:RadButton ID="RadButton2" runat="server" OnClick="btnListaUsers_Click" Text="VER USUARIOS ADMINISTRATIVOS" Icon-PrimaryIconCssClass="rbSearch"></telerik:RadButton>
+                </td>
+            </tr>
+
+            <tr class="text-center">
+                <td>
+                    <telerik:RadButton ID="RadButton1" runat="server" OnClick="rbtVolver_Click" Text="VOLVER" Icon-PrimaryIconCssClass="rbPrevious"></telerik:RadButton>
                 </td>
             </tr>
         </tr>

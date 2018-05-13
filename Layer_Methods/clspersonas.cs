@@ -40,5 +40,20 @@ namespace Layer_Methods
            }
        }
 
+       //metodo para traer las personas
+       public DataTable cargarListaPersonas()
+       {
+           try
+           {
+               DataTable dtPersonas;
+               dtPersonas = objctrpersonas.seleccionarTodos(objclpersonas, 6);
+               return dtPersonas;
+           }
+           catch (Exception ex)
+           {
+               throw ex;
+           }
+       }
+
     }
 }

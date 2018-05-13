@@ -56,7 +56,21 @@ namespace Layer_Methods
             {
                 throw ex;
             }
+        }
 
+        //metodo para traer los usuarios
+        public DataTable cargarListaUsuarios()
+        {
+            try
+            {
+                DataTable dtUsuarios;
+                dtUsuarios = objctrusuarios.seleccionarTodos(objclusuarios, 8);
+                return dtUsuarios;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
 

@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 using Layer_Mensajes;
 using Layer_Methods;
 
-public partial class Pages_usuario_usuario : System.Web.UI.Page
+public partial class Pages_agregarUsuario_agregarUsuario : System.Web.UI.Page
 {
     clstipos clstipos = new clstipos();
     clsusuario clsusuario = new clsusuario();

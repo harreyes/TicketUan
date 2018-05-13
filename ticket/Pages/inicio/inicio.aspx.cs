@@ -14,7 +14,7 @@ public partial class Pages_inicio_inicio : System.Web.UI.Page
 
     protected void btnPersonas_Click(object sender, EventArgs e)
     {
-        Response.Redirect("~/Pages/agregarPersona/agregarPersona.aspx", false);
+        Response.Redirect("~/Pages/personas/personas.aspx", false);
     }
 
     protected void btnEventos_Click(object sender, EventArgs e)

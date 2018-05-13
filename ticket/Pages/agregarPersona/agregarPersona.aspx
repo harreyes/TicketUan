@@ -66,7 +66,7 @@
             <td>
                 <telerik:RadButton ID="rbtguardar" runat="server" OnClick="rbtguardar_Click" Text="GUARDAR" Icon-PrimaryIconCssClass="rbSave"></telerik:RadButton>
 
-                <telerik:RadButton ID="rbtCancelar" runat="server" OnClick="rbtCancelar_Click" Text="CANCELAR" Icon-PrimaryIconCssClass="rbCancel"></telerik:RadButton>
+                <telerik:RadButton ID="rbtCancelar" runat="server" OnClick="rbtVolver_Click" Text="CANCELAR" Icon-PrimaryIconCssClass="rbCancel"></telerik:RadButton>
             </td>
         </tr>
 

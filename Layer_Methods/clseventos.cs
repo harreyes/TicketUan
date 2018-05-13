@@ -31,5 +31,20 @@ namespace Layer_Methods
                 throw ex;
             }
         }
+
+        //metodo para traer los eventos
+        public DataTable cargarListaEventos()
+        {
+            try
+            {
+                DataTable dtEventos;
+                dtEventos = objctreventos.seleccionarTodos(objcleventos, 6);
+                return dtEventos;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }
