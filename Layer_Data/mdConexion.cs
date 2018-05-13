@@ -17,7 +17,6 @@ namespace Layer_Data
         public SqlConnection conectarBD(string cConexion)
         {
             // GENERAR CONEXION ENTRE LA APLICACION Y LA BASE DE DATOS SQL SERVER 2008R2 Y POSTERIORES
-            // CAMILO ROMERO - 19/08/2014
 
             SqlConnection obj;
             try

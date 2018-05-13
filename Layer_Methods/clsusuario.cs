@@ -31,6 +31,34 @@ namespace Layer_Methods
             }
         }
 
+        public int insertarUsuario(int ipropiedad, string snombre, string sapellido, string scodigo, int itipoidentificacion, string sidentificacion, string scorreo, string spassword, int ipais, int iciudad, int ifacultad)
+        {
+            try
+            {
+                objclusuarios.propiedad = ipropiedad;
+                objclusuarios.nombre = snombre;
+                objclusuarios.apellido = sapellido;
+                objclusuarios.codigo = scodigo;
+                objclusuarios.tipo_identificacion = itipoidentificacion;
+                objclusuarios.identificacion = sidentificacion;
+                objclusuarios.correo = scorreo;
+                objclusuarios.password = spassword;
+                objclusuarios.pais = ipais;
+                objclusuarios.ciudad = iciudad;
+                objclusuarios.factultad = ifacultad;
+
+
+
+                objctrusuarios.seleccionarTodos(objclusuarios, 6);
+                return 1;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
+
 
     }
 }

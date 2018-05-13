@@ -26,6 +26,9 @@ namespace Layer_Methods
         Clpropiedad objclpropiedades = new Clpropiedad();
         Ctrpropiedad objctrpropiedades = new Ctrpropiedad();
 
+        Clfacultad objclfacultades = new Clfacultad();
+        Ctrfacultad objctrfacultades = new Ctrfacultad();
+
         //metodo para cargar los datos de la tabla tipoIdentificacion
         public DataTable cargarComboIdentificacion()
         {
@@ -96,6 +99,21 @@ namespace Layer_Methods
                 return dtPropiedad;
             }
             catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        //metodo para cargar las facutades
+        public DataTable cargarComboFacultades()
+        {
+            try
+            {
+                DataTable dtFacultad;
+                dtFacultad = objctrfacultades.seleccionarTodos(objclfacultades, 5);
+                return dtFacultad;
+            }
+            catch(Exception ex)
             {
                 throw ex;
             }

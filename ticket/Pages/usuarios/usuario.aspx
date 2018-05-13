@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MPVacio.master" AutoEventWireup="true" CodeFile="agregarPersona.aspx.cs" Inherits="Pages_agregarPersona_agregarPersona" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MPVacio.master" AutoEventWireup="true" CodeFile="usuario.aspx.cs" Inherits="Pages_usuario_usuario" %>
 
 <%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
 
@@ -14,12 +14,6 @@
             <td>
                 <asp:Label ID="Label2" runat="server" Text="Apellido" Width="100px"></asp:Label>
                 <telerik:RadTextBox ID="txbapellido" Width="200px" runat="server"></telerik:RadTextBox>
-            </td>
-        </tr>
-        <tr class="text-center">
-            <td>
-                <asp:Label ID="Label3" runat="server" Text="Código" Width="100px"></asp:Label>
-                <telerik:RadTextBox ID="txbcodigo" Width="200px" runat="server"></telerik:RadTextBox>
             </td>
         </tr>
         <tr class="text-center">
@@ -54,8 +48,20 @@
         </tr>
         <tr class="text-center">
             <td>
-                <asp:Label ID="Label9" runat="server" Text="Tipo persona" Width="100px"></asp:Label>
-                <telerik:RadComboBox ID="rcbtipoPersonas" Width="200px" Skin="Metro" EmptyMessage="Tipo persona" Filter="Contains" DataValueField="id" DataTextField="descripcion" runat="server"></telerik:RadComboBox>
+                <asp:Label ID="Label9" runat="server" Text="Facultad" Width="100px"></asp:Label>
+                <telerik:RadComboBox ID="rcbfacultades" Width="200px" Skin="Metro" EmptyMessage="Facultad" Filter="Contains" DataValueField="id" DataTextField="descripcion" runat="server"></telerik:RadComboBox>
+            </td>
+        </tr>
+        <tr class="text-center">
+            <td>
+                <asp:Label ID="Label3" runat="server" Text="Usuario" Width="100px"></asp:Label>
+                <telerik:RadTextBox ID="txbcodigo" Width="200px" runat="server"></telerik:RadTextBox>
+            </td>
+        </tr>
+        <tr class="text-center">
+            <td>
+                <asp:Label ID="Label10" runat="server" Text="Contraseña" Width="100px"></asp:Label>
+                <telerik:RadTextBox ID="txbpassword" Width="200px" runat="server"></telerik:RadTextBox>
             </td>
         </tr>
 
@@ -66,7 +72,7 @@
             <td>
                 <telerik:RadButton ID="rbtguardar" runat="server" OnClick="rbtguardar_Click" Text="GUARDAR" Icon-PrimaryIconCssClass="rbSave"></telerik:RadButton>
 
-                <telerik:RadButton ID="rbtCancelar" runat="server" OnClick="rbtCancelar_Click" Text="CANCELAR" Icon-PrimaryIconCssClass="rbCancel"></telerik:RadButton>
+                <telerik:RadButton ID="rbtCancelar" runat="server" OnClick="rbtCancelar_Click" Text ="CANCELAR" Icon-PrimaryIconCssClass="rbCancel"></telerik:RadButton>
             </td>
         </tr>
 

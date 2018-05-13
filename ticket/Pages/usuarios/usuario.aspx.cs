@@ -7,10 +7,10 @@ using System.Web.UI.WebControls;
 using Layer_Mensajes;
 using Layer_Methods;
 
-public partial class Pages_agregarPersona_agregarPersona : System.Web.UI.Page
+public partial class Pages_usuario_usuario : System.Web.UI.Page
 {
     clstipos clstipos = new clstipos();
-    clspersonas clspersonas = new clspersonas();
+    clsusuario clsusuario = new clsusuario();
     protected void Page_Load(object sender, EventArgs e)
     {
         try
@@ -42,8 +42,9 @@ public partial class Pages_agregarPersona_agregarPersona : System.Web.UI.Page
             this.rcbciudad.DataSource = clstipos.cargarComboCiudad();
             this.rcbciudad.DataBind();
 
-            this.rcbtipoPersonas.DataSource = clstipos.cargarComboTipoPersona();
-            this.rcbtipoPersonas.DataBind();
+            this.rcbfacultades.DataSource = clstipos.cargarComboFacultades();
+            this.rcbfacultades.DataBind();
+
         }
         catch (Exception ex)
         {
@@ -51,11 +52,31 @@ public partial class Pages_agregarPersona_agregarPersona : System.Web.UI.Page
             throw ex;
         }
     }
+
+    protected void btnUsuarios_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("~/Pages/usuarios/usuario.aspx", false);
+
+    }
+
+    protected void rbtCancelar_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            Response.Redirect("~/Pages/configuracion/configuracion.aspx", false);
+
+        }
+        catch (Exception ex)
+        {
+            Mensaje.mostrar(ex.Message, this.Page, TipoMensajes.Advertencia);
+        }
+    }
+
     protected void rbtguardar_Click(object sender, EventArgs e)
     {
         try
         {
-             string msj = "";
+            string msj = "";
             msj = validarInfo();
             if (msj != "")
             {
@@ -63,9 +84,9 @@ public partial class Pages_agregarPersona_agregarPersona : System.Web.UI.Page
             }
             else
             {
-                clspersonas.insertarDatosPersona(int.Parse(this.rcbtipoPersonas.SelectedValue), int.Parse(this.rcbpais.SelectedValue), this.txbidentificacion.Text, int.Parse(this.rcbciudad.SelectedValue), this.txbnombre.Text, this.txbcorreo.Text, this.txbcodigo.Text, 0, 1, this.txbapellido.Text, int.Parse(this.rcbtipoidentificacion.SelectedValue));
-                Mensaje.mostrar("Persona Guardada", this.Page, TipoMensajes.Advertencia);
-                
+                clsusuario.insertarUsuario(1, this.txbnombre.Text, this.txbapellido.Text, this.txbcodigo.Text, int.Parse(this.rcbtipoidentificacion.SelectedValue), this.txbidentificacion.Text, this.txbcorreo.Text, this.txbpassword.Text, int.Parse(this.rcbpais.SelectedValue), int.Parse(this.rcbciudad.SelectedValue), int.Parse(this.rcbfacultades.SelectedValue));
+                Mensaje.mostrar("Usuario Guardado", this.Page, TipoMensajes.Advertencia);
+
             }
 
         }
@@ -123,11 +144,25 @@ public partial class Pages_agregarPersona_agregarPersona : System.Web.UI.Page
                                     }
                                     else
                                     {
-                                        if (rcbtipoPersonas.SelectedValue == "")
+                                        if (rcbfacultades.SelectedValue == "")
                                         {
-                                            msj = "Debe seleccionar tipo persona";
+                                            msj = "Debe seleccionar facultad";
                                         }
-                                    }
+                                        else
+                                        {
+                                            if (txbcodigo.Text == "")
+                                            {
+                                                msj = "Debe escribir usuario";
+                                            }
+                                            else
+                                            {
+                                                if (this.txbpassword.Text == "")
+                                                {
+                                                    msj = "Debe escribir una contraseña";
+                                                }
+                                            }
+                                        }
+                                    } 
                                 }
                             }
                         }
@@ -144,17 +179,4 @@ public partial class Pages_agregarPersona_agregarPersona : System.Web.UI.Page
         }
     }
 
-
-    protected void rbtCancelar_Click(object sender, EventArgs e)
-    {
-        try
-        {
-            Response.Redirect("~/Pages/inicio/inicio.aspx", false);
-
-        }
-        catch (Exception ex)
-        {
-            Mensaje.mostrar(ex.Message, this.Page, TipoMensajes.Advertencia);
-        }
-    }
 }

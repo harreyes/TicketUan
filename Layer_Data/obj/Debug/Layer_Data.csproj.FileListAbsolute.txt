@@ -34,3 +34,14 @@ C:\Users\HAROLD\Desktop\tick\9. TICKET\Layer_Data\bin\Debug\Layer_Data.pdb
 C:\Users\HAROLD\Desktop\tick\9. TICKET\Layer_Data\obj\Debug\Layer_Data.csprojResolveAssemblyReference.cache
 C:\Users\HAROLD\Desktop\tick\9. TICKET\Layer_Data\obj\Debug\Layer_Data.dll
 C:\Users\HAROLD\Desktop\tick\9. TICKET\Layer_Data\obj\Debug\Layer_Data.pdb
+C:\Users\HAROLD\Documents\U\SOFTWARE II\9. TICKET\Layer_Data\bin\Debug\Layer_Data.dll
+C:\Users\HAROLD\Documents\U\SOFTWARE II\9. TICKET\Layer_Data\bin\Debug\Layer_Data.pdb
+C:\Users\HAROLD\Documents\U\SOFTWARE II\9. TICKET\Layer_Data\obj\Debug\Layer_Data.csprojResolveAssemblyReference.cache
+C:\Users\HAROLD\Documents\U\SOFTWARE II\9. TICKET\Layer_Data\obj\Debug\Layer_Data.dll
+C:\Users\HAROLD\Documents\U\SOFTWARE II\9. TICKET\Layer_Data\obj\Debug\Layer_Data.pdb
+C:\Users\acer\Desktop\Harold Reyes Ticket\9. TICKET\Layer_Data\bin\Debug\Layer_Data.dll
+C:\Users\acer\Desktop\Harold Reyes Ticket\9. TICKET\Layer_Data\bin\Debug\Layer_Data.pdb
+C:\Users\acer\Desktop\Harold Reyes Ticket\9. TICKET\Layer_Data\obj\Debug\Layer_Data.csprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\Harold Reyes Ticket\9. TICKET\Layer_Data\obj\Debug\Layer_Data.csproj.CoreCompileInputs.cache
+C:\Users\acer\Desktop\Harold Reyes Ticket\9. TICKET\Layer_Data\obj\Debug\Layer_Data.dll
+C:\Users\acer\Desktop\Harold Reyes Ticket\9. TICKET\Layer_Data\obj\Debug\Layer_Data.pdb

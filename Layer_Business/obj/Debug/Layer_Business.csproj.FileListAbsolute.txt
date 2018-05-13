@@ -41,3 +41,18 @@ C:\Users\HAROLD\Desktop\tick\9. TICKET\Layer_Business\bin\Debug\Layer_Data.pdb
 C:\Users\HAROLD\Desktop\tick\9. TICKET\Layer_Business\obj\Debug\Layer_Business.csprojResolveAssemblyReference.cache
 C:\Users\HAROLD\Desktop\tick\9. TICKET\Layer_Business\obj\Debug\Layer_Business.dll
 C:\Users\HAROLD\Desktop\tick\9. TICKET\Layer_Business\obj\Debug\Layer_Business.pdb
+C:\Users\HAROLD\Documents\U\SOFTWARE II\9. TICKET\Layer_Business\bin\Debug\Layer_Business.dll
+C:\Users\HAROLD\Documents\U\SOFTWARE II\9. TICKET\Layer_Business\bin\Debug\Layer_Business.pdb
+C:\Users\HAROLD\Documents\U\SOFTWARE II\9. TICKET\Layer_Business\bin\Debug\Layer_Data.dll
+C:\Users\HAROLD\Documents\U\SOFTWARE II\9. TICKET\Layer_Business\bin\Debug\Layer_Data.pdb
+C:\Users\HAROLD\Documents\U\SOFTWARE II\9. TICKET\Layer_Business\obj\Debug\Layer_Business.csprojResolveAssemblyReference.cache
+C:\Users\HAROLD\Documents\U\SOFTWARE II\9. TICKET\Layer_Business\obj\Debug\Layer_Business.dll
+C:\Users\HAROLD\Documents\U\SOFTWARE II\9. TICKET\Layer_Business\obj\Debug\Layer_Business.pdb
+C:\Users\acer\Desktop\Harold Reyes Ticket\9. TICKET\Layer_Business\bin\Debug\Layer_Business.dll
+C:\Users\acer\Desktop\Harold Reyes Ticket\9. TICKET\Layer_Business\bin\Debug\Layer_Business.pdb
+C:\Users\acer\Desktop\Harold Reyes Ticket\9. TICKET\Layer_Business\bin\Debug\Layer_Data.dll
+C:\Users\acer\Desktop\Harold Reyes Ticket\9. TICKET\Layer_Business\bin\Debug\Layer_Data.pdb
+C:\Users\acer\Desktop\Harold Reyes Ticket\9. TICKET\Layer_Business\obj\Debug\Layer_Business.csprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\Harold Reyes Ticket\9. TICKET\Layer_Business\obj\Debug\Layer_Business.csproj.CoreCompileInputs.cache
+C:\Users\acer\Desktop\Harold Reyes Ticket\9. TICKET\Layer_Business\obj\Debug\Layer_Business.dll
+C:\Users\acer\Desktop\Harold Reyes Ticket\9. TICKET\Layer_Business\obj\Debug\Layer_Business.pdb
